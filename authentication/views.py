@@ -8,4 +8,4 @@ from django.utils.decorators import method_decorator
 
 @method_decorator(login_required, name='dispatch')
 class DashboardView(views.generic.TemplateView):
-    template_name = 'dashboard.html'
+    template_name = "dashboard.html"
